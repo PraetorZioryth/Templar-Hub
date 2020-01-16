@@ -1,9 +1,10 @@
-/*-----< Top Navigation Bar >-----*/
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/background.jpg");
 }
 
+/*-----< Top Navigation Bar >-----*/
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -34,18 +35,6 @@ body {
 }
 
 /*-----< Login Form >-----*/
-.topnav .login-container {
-    float: right;
-}
-
-.topnav input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-    width: 150px;
-}
-
 .topnav .login-container button {
     float: right;
     padding: 6px;
@@ -55,11 +44,11 @@ body {
     font-size: 17px;
     border: none;
     cursor: pointer;
-}
-
-.topnav .login-container button:hover {
+  }
+  
+  .topnav .login-container button:hover {
     background: #ccc;
-}
+  }
 
 /*--------------------------------*/
 
