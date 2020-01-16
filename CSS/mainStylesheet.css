@@ -33,6 +33,34 @@ body {
     display: none;
 }
 
+/*-----< Login Form >-----*/
+.topnav .login-container {
+    float: right;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+}
+
+.topnav .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+    background: #ccc;
+}
+
 /*--------------------------------*/
 
 /*-----< Support for Mobile >-----*/
